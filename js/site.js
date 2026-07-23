@@ -91,3 +91,38 @@ document.addEventListener('keydown', (event) => {
 });
 
 document.querySelector('#year').textContent = new Date().getFullYear();
+
+// Mobile refinements: prevent page scrolling behind the open menu,
+// close on Escape, and close when the user taps outside the navigation.
+if (mobileButton && mobileMenu) {
+  const syncMobileBody = () => {
+    document.body.classList.toggle('menu-open', mobileMenu.classList.contains('open'));
+  };
+
+  mobileButton.addEventListener('click', () => requestAnimationFrame(syncMobileBody));
+
+  mobileMenu.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      document.body.classList.remove('menu-open');
+    });
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && mobileMenu.classList.contains('open')) {
+      mobileMenu.classList.remove('open');
+      mobileButton.setAttribute('aria-expanded', 'false');
+      mobileButton.textContent = 'Menu';
+      document.body.classList.remove('menu-open');
+      mobileButton.focus();
+    }
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!mobileMenu.classList.contains('open')) return;
+    if (mobileMenu.contains(event.target) || mobileButton.contains(event.target)) return;
+    mobileMenu.classList.remove('open');
+    mobileButton.setAttribute('aria-expanded', 'false');
+    mobileButton.textContent = 'Menu';
+    document.body.classList.remove('menu-open');
+  });
+}
