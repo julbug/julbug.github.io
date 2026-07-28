@@ -1,46 +1,78 @@
-# Julia Dannerth — Master Floral Portfolio
+# Julia Dannerth | Floral Portfolio
 
-A static, GitHub Pages–ready portfolio containing HTML, CSS, JavaScript, optimized WebP images, and résumé artwork.
+An editorial-style floral portfolio showcasing a growing collection of floral arrangements created through independent study and floral design coursework.
 
-## Publish with GitHub Pages
+## Live Website
 
-1. Create a new public GitHub repository, such as `floral-portfolio`.
-2. Upload **the contents of this folder** to the repository root. `index.html` must be at the top level.
-3. Open the repository's **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`, then save.
-6. GitHub will provide the live website URL after deployment.
+🌿 https://julbug.github.io/
 
-## Updating the live website
+## About
 
-Upload the revised files to the same repository and commit the changes. GitHub Pages will rebuild the same URL, so your QR code will not need to change.
+This portfolio documents my transition into the floral industry and highlights a selection of floral studies exploring color, movement, texture, and composition.
 
-## Project structure
+Each arrangement represents a stage in my continuing floral education and creative development. As I complete additional designs, new studies will be added to the collection.
 
-- `index.html` — portfolio content and study records
-- `assets/css/styles.css` — all visual styling
-- `assets/js/site.js` — navigation, active-study highlighting, and image viewer
-- `assets/images/studies/` — optimized portfolio photographs
-- `assets/images/resume/` — résumé image
+## Portfolio Highlights
 
-## Adding a new study
+- Editorial-inspired portfolio design
+- Responsive layout for desktop and mobile
+- Individual floral studies with botanical references
+- Downloadable résumé
+- Hosted using GitHub Pages
 
-1. Add an optimized image to `assets/images/studies/`.
-2. Duplicate a study `<article>` in `index.html`.
-3. Update its ID, `data-study` number, image path, alternative text, study label, and flower list.
-4. The desktop and mobile study navigation lists are generated automatically from the `data-study` elements.
+## Built With
 
-## Current contact
+- HTML5
+- CSS3
+- JavaScript
+- GitHub Pages
 
-- Email: jdannerth@gmail.com
-- Instagram: intentionally omitted until available
+## Current Collection
 
+The portfolio currently includes studies featuring:
 
-## Editorial gallery update
+- Rose
+- Calla Lily
+- Anthurium
+- Ranunculus
+- Bells of Ireland
+- Hydrangea
+- Chrysanthemum
+- Alstroemeria
+- Eryngium
+- Spider Mum
+- Daisy
+- Carnation
+- Sunflower
+- Delphinium
+- Larkspur
+- Campanula
+- Eucalyptus
+- Statice
+- Leatherleaf Fern
+- Italian Ruscus
+- Israeli Ruscus
+- Variegated Ti Leaf
+- Solidago
+- Monte Casino Aster
+- Baby's Breath
+- Myrtle
+- Limonium
+…and more as the portfolio continues to grow.
 
-- Selected Work is collapsed by default and expands only when clicked.
-- Studies I–II and IV–V are paired side by side.
-- Studies III, VI, VIII, and IX use full editorial widths.
-- Study VII remains a three-image event spread with the Sip & See note.
-- Study IX no longer includes technique or Oasis notes.
-- All study captions use the same image / study number / flower-list system.
+## Future Updates
+
+This portfolio is an ongoing project.
+
+Upcoming additions include:
+
+- Additional floral studies
+- Seasonal collections
+- Event work
+- Wedding florals
+- Expanded botanical gallery
+- Link to Instagram Page
+
+---
+
+© Julia Dannerth
