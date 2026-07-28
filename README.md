@@ -10,36 +10,58 @@ An editorial-style floral portfolio showcasing a growing collection of floral ar
 
 This portfolio documents my transition into the floral industry and highlights a selection of floral studies exploring color, movement, texture, and composition.
 
-Each arrangement represents a stage in my continuing floral education and creative development. As I complete additional designs, new studies will be added to the collection.
+Every arrangement represents a step in my continuing floral education and creative development. As my portfolio grows, additional studies and event work will be added to the collection.
 
-## Portfolio Highlights
+---
+
+## Project Structure
+
+```
+/
+├── index.html                  # Main portfolio page
+├── css/
+│   └── styles.css              # Site styling and responsive layout
+├── js/
+│   └── site.js                 # Navigation and interactive components
+├── images/
+│   ├── studies/                # Portfolio images
+│   └── resume/                 # Downloadable résumé
+└── README.md
+```
+
+---
+
+## Features
 
 - Editorial-inspired portfolio design
 - Responsive layout for desktop and mobile
-- Individual floral studies with botanical references
+- Collapsible study navigation
 - Downloadable résumé
-- Hosted using GitHub Pages
+- GitHub Pages deployment
+- Growing collection of floral studies
 
-## Built With
+---
+
+## Technologies
 
 - HTML5
 - CSS3
-- JavaScript
+- Vanilla JavaScript
 - GitHub Pages
 
-## Current Collection
+---
 
-The portfolio currently includes studies featuring:
+## Selected Floral Studies
 
-- Rose
-- Calla Lily
+The current collection includes work featuring:
+
+- Roses
+- Calla Lilies
 - Anthurium
 - Ranunculus
 - Bells of Ireland
 - Hydrangea
 - Chrysanthemum
-- Alstroemeria
-- Eryngium
 - Spider Mum
 - Daisy
 - Carnation
@@ -47,31 +69,25 @@ The portfolio currently includes studies featuring:
 - Delphinium
 - Larkspur
 - Campanula
+- Eryngium
+- Alstroemeria
 - Eucalyptus
 - Statice
 - Leatherleaf Fern
 - Italian Ruscus
 - Israeli Ruscus
 - Variegated Ti Leaf
-- Solidago
 - Monte Casino Aster
+- Solidago
 - Baby's Breath
 - Myrtle
 - Limonium
-…and more as the portfolio continues to grow.
 
-## Future Updates
+---
 
-This portfolio is an ongoing project.
+## Continuing Study
 
-Upcoming additions include:
-
-- Additional floral studies
-- Seasonal collections
-- Event work
-- Wedding florals
-- Expanded botanical gallery
-- Link to Instagram Page
+This portfolio is a living collection documenting my growth as a floral designer. New studies, seasonal work, and event arrangements will continue to be added as my education and experience evolve.
 
 ---
 
